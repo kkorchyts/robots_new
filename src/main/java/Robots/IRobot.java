@@ -5,5 +5,6 @@ public interface IRobot {
     void pause();
     void drop();
     void killhimself();
-    int getStatus();
+    RobotStatus getStatus();
+
 }
