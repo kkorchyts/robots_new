@@ -3,6 +3,8 @@ package Robots;
 import java.awt.*;
 
 enum RobotStatus {readytowork, inprogress, finished}
+// multithread
+
 public class BaseRobot implements IRobot , Runnable {
     private int capacity;
     private  int velocity;
